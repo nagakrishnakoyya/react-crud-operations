@@ -1,0 +1,229 @@
+{
+  "posts": [
+    {
+      "id": "P001",
+      "title": "Post one",
+      "body": "This is post one body",
+      "publishedAt": "09-10-2020"
+    },
+    {
+      "id": "P002",
+      "title": "Post two",
+      "body": "This is post two body",
+      "publishedAt": "09-05-1990"
+    },
+    {
+      "id": "P003",
+      "title": "Post three",
+      "body": "This is post three body",
+      "publishedAt": "25-11-1992"
+    },
+    {
+      "title": "Post four",
+      "body": "This is post four body",
+      "publishedAt": "11-10-2020",
+      "id": "w5EpJxd"
+    },
+    {
+      "title": "Post five",
+      "body": "This is post five body",
+      "publishedAt": "18-05-2020",
+      "id": "Ke3eNfX"
+    },
+    {
+      "title": "New post",
+      "body": "This is new post",
+      "publishedAt": "12-10-2020",
+      "id": "_6azJh-"
+    },
+    {
+      "title": "Modified post",
+      "body": "This JavaScript modified post",
+      "publishedAt": "12-10-2020",
+      "id": "sxfTvek"
+    },
+    {
+      "title": "sdgd",
+      "body": "hgd jdgfd ddgh",
+      "publishedAt": "13-10-2020",
+      "id": "ZacOq_C"
+    },
+    {
+      "title": "Naga",
+      "body": "I'm Naga Krishna",
+      "publishedAt": "13-10-2020",
+      "id": "bXOU_5M"
+    },
+    {
+      "title": "Hello World",
+      "body": "This JavaScript world",
+      "publishedAt": "13-10-2020",
+      "id": "F8OAOKL"
+    },
+    {
+      "title": "kkfhad ajhka",
+      "body": "khakdfh dfldfl",
+      "publishedAt": "13-10-2020",
+      "id": "BIicgBk"
+    },
+    {
+      "title": "ReactJS",
+      "body": "This is very fast growing library",
+      "publishedAt": "14-10-2020",
+      "id": "yalbdif"
+    },
+    {
+      "title": "Hello Krishna",
+      "body": "This is sample post",
+      "publishedAt": "14-10-2020",
+      "id": "gMXvN9s"
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Naga Krishna",
+      "userName": "nagakrishna",
+      "email": "knkintouch@gmail.com",
+      "userCreatedAt": "09-10-2018"
+    },
+    {
+      "userName": "naveen0234",
+      "name": "Naveen Thota",
+      "email": "naveenthota0234@gmail.com",
+      "userCreatedAt": "19-02-1994",
+      "id": "2U-yfgH"
+    },
+    {
+      "name": "Nagendra Kumar",
+      "email": "test1@gmail.com",
+      "userCreatedAt": "15-10-2020",
+      "id": "jBsyK9O",
+      "midifiedDate": "15-10-2020"
+    },
+    {
+      "name": "Somasekhar",
+      "email": "somasekhar@gmail.com",
+      "userCreatedAt": "15-10-2020",
+      "id": "w0r9DOC"
+    },
+    {
+      "name": "test user1uyet",
+      "email": "Testuser1@mail.com",
+      "userCreatedAt": "17-10-2020",
+      "id": "U2S5T9H",
+      "midifiedDate": "17-10-2020"
+    }
+  ],
+  "todos": [
+    {
+      "id": "T001",
+      "title": "illo expedita consequatur quia in",
+      "completed": false
+    },
+    {
+      "id": "T002",
+      "title": "quo adipisci enim quam ut ab",
+      "completed": false,
+      "isEditable": true
+    },
+    {
+      "id": "T003",
+      "title": "ab voluptatum amet voluptas",
+      "completed": false,
+      "isEditable": true
+    },
+    {
+      "id": "T004",
+      "title": "illo est ratione doloremque quia maiores aut",
+      "completed": true
+    },
+    {
+      "id": "T005",
+      "title": "vero rerum temporibus dolor",
+      "completed": true
+    },
+    {
+      "id": "T006",
+      "title": "ipsa repellendus fugit nisi",
+      "completed": true
+    },
+    {
+      "id": "T007",
+      "title": "et doloremque nulla",
+      "completed": false
+    },
+    {
+      "id": "T008",
+      "title": "repellendus sunt dolores architecto voluptatum",
+      "completed": true
+    },
+    {
+      "id": "T009",
+      "title": "ab voluptatum amet voluptas",
+      "completed": false,
+      "isEditable": true
+    },
+    {
+      "id": "T0010",
+      "title": "accusamus eos facilis sint et aut voluptatem",
+      "completed": true
+    },
+    {
+      "id": "T0011",
+      "title": "quo laboriosam deleniti aut qui",
+      "completed": true
+    },
+    {
+      "id": "T0012",
+      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "completed": false
+    },
+    {
+      "id": "T0013",
+      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "completed": false
+    },
+    {
+      "id": "T0014",
+      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "completed": false
+    },
+    {
+      "id": "T0015",
+      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "completed": false
+    },
+    {
+      "id": "T0016",
+      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "completed": false
+    },
+    {
+      "title": "New post2 mmmm",
+      "completed": false,
+      "id": "2ZbNx-h",
+      "isEditable": true
+    },
+    {
+      "title": " mfskhkfsdf",
+      "completed": "false",
+      "id": "fBnjMl0"
+    },
+    {
+      "title": "dhfjdh jdgfjdgj",
+      "completed": "false",
+      "id": "AmedaMU"
+    },
+    {
+      "title": "bgdfj djfgdjg",
+      "completed": "false",
+      "id": "kJLB-FN"
+    },
+    {
+      "title": "fgjdgf",
+      "completed": "true",
+      "id": "Rn9V1vI"
+    }
+  ]
+}

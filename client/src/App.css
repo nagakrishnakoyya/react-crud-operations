@@ -1,0 +1,163 @@
+:root {
+  --heading-ff: "Oswald", sans-serif;
+  --regular-ff: "Open Sans", sans-serif;
+}
+
+/*--- General CSS ---*/
+body {
+  font-family: "Oswald", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--heading-ff);
+}
+p,
+.p {
+  font-family: var(--regular-ff);
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+ul.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 320px;
+}
+li.nav-item a {
+  font-family: var(--heading-ff);
+}
+li.nav-item a:hover {
+  color: red;
+}
+li.nav-item a.active {
+  color: red;
+  font-weight: bold;
+}
+span.spl_name {
+  color: red;
+  font-style: italic;
+}
+.card-body ul li b {
+  min-width: 120px;
+  display: inline-block;
+}
+
+.post-actions, .user-actions {
+  text-align: right;
+}
+.post-actions ul, .user-actions ul {
+  margin-bottom: 0px;
+}
+.post-actions ul li, .user-actions ul li {
+  display: inline-block;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.post-actions ul li i, .user-actions ul li i {
+  color: #17a2b8;
+}
+
+.todo-text {
+  min-height: 60px;
+}
+ul.styled-list {
+  margin-bottom: 0px;
+  text-align: center;
+}
+ul.styled-list li {
+  display: inline-block;
+  padding-left: 20px;
+  cursor: pointer;
+}
+ul.styled-list li:first-child {
+  padding-left: 0px;
+  cursor: unset;
+}
+ul.styled-list li i {
+  color: #17a2b8;
+}
+ul.styled-list li:first-child span {
+  vertical-align: middle;
+}
+
+.loader {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 130px);
+  justify-content: center;
+  align-items: center;
+}
+
+.content_center {
+  width: 100%;
+  height: calc(100vh - 67px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_center_100 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.show {
+  display: block;
+  background-color: #0000006b;
+}
+.modal .content_center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
